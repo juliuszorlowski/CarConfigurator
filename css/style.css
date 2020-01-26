@@ -1,0 +1,120 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(241, 235, 235);
+}
+
+.carBox img {
+    width: 200px;
+}
+
+.carBox h4 {
+    margin: 8px 0 0 0;
+}
+
+.carBox p {
+    margin: 0 0 8px 0;
+}
+
+.carBox a {
+    color: black;
+    text-decoration: none;
+}
+
+.carBox {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.steps ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(207, 204, 204);
+}
+
+.steps a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.steps li {
+    float: left;
+}
+
+li a:hover {
+    background-color: rgb(177, 171, 171);
+}
+
+.active {
+    background-color: rgb(197, 76, 76);
+}
+
+.photo {
+    background-color: white;
+}
+
+.photo h3 {
+    clear: both;
+}
+
+img.big {
+    width: 400px;
+    display: block;
+    padding: 10px 80px 0 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.logo {
+    float: left;
+    padding: 5px 0 0 5px;
+    width: 80px;
+}
+
+button.return {
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+div.options {
+    float: left;
+    width: 60%;
+}
+
+.options table {
+    width: 100%;
+    background-color: rgb(218, 213, 213);
+}
+
+td {
+    padding: 4px;
+}
+
+tr.activeTr {
+    background-color: rgb(218, 149, 149);;
+}
+
+tr.inactiveTr {
+    background-color: rgb(218, 213, 213);
+}
+
+.summary {
+    float: left;
+    width: 40%;
+}
+
+.summaryTable table {
+    width: 100%;
+    background-color: rgb(218, 213, 213);
+}
+
+table td:nth-child(even) {
+    text-align: right;
+}
